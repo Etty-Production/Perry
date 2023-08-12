@@ -9,7 +9,7 @@ from FunctionForProject import *
 url = r'http://192.168.61.136:4747/video'
 
 # Capture video stream from camera
-cap = cv2.VideoCapture(0)#'TestVideos/11.mp4')
+cap = cv2.VideoCapture('TestVideos/3.mp4')
 
 # Connect to Arduino
 
